@@ -31,4 +31,4 @@ git clone git@REPONAME.github.com:ReseauBiodiversiteQuebec/REPONAME.git
 
 ```sudo pm2 restart shiny hook```
 
-11. Add the webhook using https://coleo.biodiversite-quebec.ca/shiny-hook/
+11. Add the webhook to the GitHub repo (settings -> Webhooks) using https://coleo.biodiversite-quebec.ca/shiny-hook/
