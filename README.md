@@ -14,7 +14,7 @@ ssh-keygen -t rsa -f ~/.ssh/id_rsa.REPONAME
 Host tableau-rarefaction.github.com
   HostName github.com
   User git
-  IdentityFile /home/shiny/.ssh/id_rsa.rarefaction
+  IdentityFile /home/shiny/.ssh/id_rsa.REPONAME
 ```
 
 4. Git clone the repository with
@@ -29,6 +29,7 @@ git clone git@REPONAME.github.com:ReseauBiodiversiteQuebec/REPONAME.git
 
 7. Restart shiny hook with
 
-```sudo pm2 restart shiny hook```
+```sudo pm2 restart shiny-hook```
 
 8. Add the webhook to the GitHub repo (settings -> Webhooks) using https://coleo.biodiversite-quebec.ca/shiny-hook/
+
