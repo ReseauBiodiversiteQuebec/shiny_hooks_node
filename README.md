@@ -23,12 +23,12 @@ Host tableau-rarefaction.github.com
 git clone git@REPONAME.github.com:ReseauBiodiversiteQuebec/REPONAME.git
 ```
 
-6. Edit the hook.js file of the shiny_hooks_node app (~/shiny_hooks_node) to add the repo.
+5. Edit the hook.js file of the shiny_hooks_node app (~/shiny_hooks_node) to add the repo.
 
-7. Edit the .sh file (tableau_rarefaction_webhook.sh) with the proper commands.
+6. Edit the .sh file (tableau_rarefaction_webhook.sh) with the proper commands.
 
-8. Restart shiny hook with
+7. Restart shiny hook with
 
 ```sudo pm2 restart shiny hook```
 
-11. Add the webhook to the GitHub repo (settings -> Webhooks) using https://coleo.biodiversite-quebec.ca/shiny-hook/
+8. Add the webhook to the GitHub repo (settings -> Webhooks) using https://coleo.biodiversite-quebec.ca/shiny-hook/
