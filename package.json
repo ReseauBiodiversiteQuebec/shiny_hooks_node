@@ -1,0 +1,14 @@
+{
+  "name": "shiny_hooks_node",
+  "version": "1.0.0",
+  "description": "Web hook service for updating Shiny apps from Github",
+  "main": "hook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillaume Larocque",
+  "license": "ISC",
+  "dependencies": {
+    "gith": "^1.0.4"
+  }
+}
