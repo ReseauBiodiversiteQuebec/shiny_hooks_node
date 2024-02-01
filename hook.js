@@ -247,7 +247,7 @@ gith({
     if( payload.branch === 'main' )
     {
             // Exec a shell script
-            execFile('/home/shiny/tableau-comparateur_sdm_webhook.sh', function(error, stdout, stderr>
+            execFile('/home/shiny/tableau-comparateur_sdm_webhook.sh', function(error, stdout, stderr) {
                     // Log success in some manner
                     console.log( 'Tableau comparateur_sdm update' );
             });
